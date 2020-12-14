@@ -135,7 +135,7 @@ section {
   grid-template-rows: repeat(3, 100px);
   grid-gap: 10px;
   font-weight: bold;
-  font-size: 30px;
+
 }
 
 .service-grid-item {
@@ -144,12 +144,18 @@ section {
   color: black;
 }
 
+
 .box1 {
   grid-column-start: 1; 
   grid-column-end: 12; 
   grid-row-start: 1; 
   grid-row-end: 3; 
   background-image: url('../images/pattern1.jpg');
+}
+
+.box1:hover {
+
+  opacity: 0.5;
 }
 
 .box2 {
@@ -160,12 +166,23 @@ section {
   background-image: url('../images/pattern2.jpg');
 }
 
+.box2:hover {
+
+  opacity: 0.5;
+}
+
 .box3 {
   grid-column-start: 12; 
   grid-column-end: 12;
   grid-row-start:2 ; 
   grid-row-end: 2; 
   background-image: url('../images/pattern3.jpg');
+  text-align: center;
+}
+
+.box3:hover {
+
+  opacity: 0.5;
 }
 
 .box4 {
@@ -176,6 +193,11 @@ section {
   background-image: url('../images/pattern4.jpg');
 }
 
+.box4:hover {
+
+  opacity: 0.5;
+}
+
 .box5 {
   grid-column-start: 1; 
   grid-column-end: 6; 
@@ -184,10 +206,20 @@ section {
   background-image: url('../images/pattern5.jpg');
 }
 
+.box5:hover {
+
+  opacity: 0.5;
+}
+
 .box6 {
   grid-column-start: 7; 
   grid-column-end: 12; 
   grid-row-start: 3; 
   grid-row-end: 3; 
   background-image: url('../images/pattern6.jpg');
+}
+
+.box6:hover {
+
+  opacity: 0.5;
 }
